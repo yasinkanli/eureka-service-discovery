@@ -30,6 +30,7 @@ Sunucu http://localhost:8761 adresinde çalışmaya başlayacaktır.
 Load Balancing (Yük Dengeleme) senaryosunu simüle etmek için aynı client uygulamasından iki farklı portta ayağa kaldırıyoruz.
 
 Birinci Instance (Varsayılan Port): eureka-client projesini standart şekilde başlatın.
+
 <img width="2770" height="896" alt="image" src="https://github.com/user-attachments/assets/5d839433-6719-4dbd-a490-8c6c80a84cb5" />
 
 
@@ -39,6 +40,7 @@ Bash
 # Örnek terminal komutu
 mvn clean install
 java -jar -Dserver.port=8081 target/eureka-client-0.0.1-SNAPSHOT.jar
+
 <img width="2668" height="425" alt="image" src="https://github.com/user-attachments/assets/5aa2a6ed-5232-406b-8f43-04f21840af09" />
 
 ✅ Sonuç: Service Registry Durumu
