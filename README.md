@@ -1,6 +1,6 @@
-# Spring Boot Eureka Service Discovery Demo
+# Spring Boot Eureka Service Discovery
 
-Bu proje, **Spring Cloud Netflix Eureka** teknolojisini kullanarak mikroservis mimarilerinde **Service Discovery (Hizmet Keşfi)** mekanizmasının nasıl çalıştığını göstermek amacıyla geliştirilmiştir.
+Bu proje, **Spring Cloud Netflix Eureka** teknolojisini kullanarak mikroservis mimarilerinde **Service Discovery** mekanizmasının nasıl çalıştığını göstermek amacıyla geliştirilmiştir.
 
 Proje iki ana modülden oluşmaktadır:
 1.  **Eureka Server:** Servislerin kayıt olduğu merkezi sunucu (Discovery Server).
@@ -32,7 +32,6 @@ Load Balancing (Yük Dengeleme) senaryosunu simüle etmek için aynı client uyg
 Birinci Instance (Varsayılan Port): eureka-client projesini standart şekilde başlatın.
 
 <img width="2770" height="896" alt="image" src="https://github.com/user-attachments/assets/5d839433-6719-4dbd-a490-8c6c80a84cb5" />
-
 
 İkinci Instance (Farklı Port): Terminalden veya IDE konfigürasyonundan portu değiştirerek ikinci bir örneği başlatın:
 
